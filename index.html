@@ -3,11 +3,186 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hillside Payments - Credit Card Processing for Businesses</title>
-  <meta name="description" content="Accept credit cards, invoices, and online payments with Hillside Payments. Secure, fast settlements, global support." />
+  <title>Hillside Payments — Payments and back-office tools for building-supply merchants</title>
+  <meta name="description" content="Hillside Payments is a Queens-based payments company for lumber yards, hardware stores and building-supply dealers across New York City." />
+  <link rel="canonical" href="https://hillsidepay.com/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hillside Payments" />
+  <meta property="og:description" content="Payments and back-office tools for the building-supply counter. Queens, New York." />
+  <meta property="og:url" content="https://hillsidepay.com/" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2323563A'/%3E%3Cpath d='M9 7h4v8h6V7h4v18h-4v-6h-6v6H9z' fill='%23F5E6A6'/%3E%3C/svg%3E" />
+
+  <link rel="preload" href="/fonts/archivo-variable.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-  <div id="root"></div>
-  <script type="module" src="/main.jsx"></script>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="wordmark" href="/" aria-label="Hillside Payments home">
+        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect width="32" height="32" rx="6" />
+          <path d="M9 7h4v8h6V7h4v18h-4v-6h-6v6H9z" />
+        </svg>
+        <span>Hillside Payments</span>
+      </a>
+      <nav class="site-nav" aria-label="Site">
+        <a href="#what-we-do">What we do</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>Payments and <span class="nobr">back-office</span> tools for the <span class="nobr">building-supply</span> counter.</h1>
+          <p class="lede">Hillside Payments is a Queens-based payments company for lumber yards, hardware stores and building-supply dealers across New York City.</p>
+        </div>
+
+        <figure class="ticket" aria-labelledby="ticket-caption">
+          <div class="ticket-head">
+            <div>
+              <div class="ticket-title">Counter ticket</div>
+              <div class="ticket-meta">House account, net 30</div>
+            </div>
+            <div class="ticket-no">No. 04471</div>
+          </div>
+
+          <table class="ticket-lines">
+            <thead>
+              <tr>
+                <th scope="col" class="qty">Qty</th>
+                <th scope="col">Item</th>
+                <th scope="col" class="amt">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="qty">40</td>
+                <td>2×4×8 SPF, kiln dried</td>
+                <td class="amt">212.00</td>
+              </tr>
+              <tr>
+                <td class="qty">2</td>
+                <td>Deck screws, 3 in., 5 lb box</td>
+                <td class="amt">79.80</td>
+              </tr>
+              <tr>
+                <td class="qty">1</td>
+                <td>Special order: 6'0" sliding patio door</td>
+                <td class="amt">1,850.00</td>
+              </tr>
+              <tr>
+                <td class="qty">1</td>
+                <td>Delivery, Thursday a.m.</td>
+                <td class="amt">65.00</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="2">Subtotal</td>
+                <td class="amt">2,206.80</td>
+              </tr>
+              <tr>
+                <td colspan="2">Sales tax (resale certificate on file)</td>
+                <td class="amt">0.00</td>
+              </tr>
+              <tr>
+                <td colspan="2">Deposit received, card</td>
+                <td class="amt">−925.00</td>
+              </tr>
+              <tr class="balance">
+                <td colspan="2">Balance due on delivery</td>
+                <td class="amt">1,281.80</td>
+              </tr>
+            </tfoot>
+          </table>
+
+          <div class="ticket-foot">
+            <figcaption id="ticket-caption" class="ticket-caption">Sample ticket. The kind of sale the counter handles every morning — and the kind most payment tools can't.</figcaption>
+            <div class="stamp" aria-hidden="true">Deposit received</div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="what-we-do" class="section">
+      <div class="wrap">
+        <h2>What we do</h2>
+        <div class="three-up">
+          <div class="item">
+            <h3>Cards at the counter and in the yard</h3>
+            <p>We set stores up to take cards at the register, at the lumber desk, and on deliveries — with the same account and the same reporting behind all three.</p>
+          </div>
+          <div class="item">
+            <h3>Invoices, deposits and house accounts</h3>
+            <p>Estimates that turn into invoices. Deposits on special orders. Partial payments and a balance that settles on delivery. Pay-by-link for contractors who settle up from the truck.</p>
+          </div>
+          <div class="item">
+            <h3>Orders, purchasing and the books</h3>
+            <p>Phone and fax orders entered once. Stock counts that update with every sale. Purchase orders to your suppliers, and a sync to QuickBooks so month-end isn't a project.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="wrap two-col">
+        <h2>Built for the trade</h2>
+        <div class="prose">
+          <p>Hardware stores. Lumber yards. Paint, plumbing and electrical supply. Masonry and building-materials dealers.</p>
+          <p>Stores where half the sales go on a house account, special orders need a deposit, a delivery ticket has to match the invoice, and the counter takes orders by phone all morning. The payment and invoicing tools built for coffee shops don't fit here. Ours are built for this.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap two-col">
+        <h2>About</h2>
+        <div class="prose">
+          <p>Hillside Payments was founded in 2026 in Queens, New York, by two people who have spent their careers on opposite sides of the counter: one in payments and commerce platforms, one running building-supply stores in Queens and Brooklyn.</p>
+          <p>We're starting close to home, with the stores and contractors we already know, and building out from there.</p>
+          <!--
+            Founder bios — fill in when you're ready to publish names:
+            <div class="founders">
+              <p><strong>[Full name]</strong>, co-founder. [One sentence.]</p>
+              <p><strong>[Full name]</strong>, co-founder. [One sentence.]</p>
+            </div>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <div class="wrap two-col">
+        <h2>Contact</h2>
+        <div class="prose">
+          <p class="contact-line"><a href="mailto:hello@hillsidepay.com">hello@hillsidepay.com</a></p>
+          <p>Hillside Payments LLC<br />Hollis, Queens, New York</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>© 2026 Hillside Payments LLC. Queens, New York.</p>
+      <!--
+        SPONSOR DISCLOSURE — uncomment once the agent agreement is signed.
+        Card-brand rules require agents to name their sponsor wherever
+        processing is marketed. Use the exact wording your ISO gives you.
+
+      <p class="disclosure">Hillside Payments LLC is an agent of [ISO NAME], a registered ISO/MSP of [SPONSOR BANK NAME], [CITY, STATE].</p>
+      -->
+    </div>
+  </footer>
+
 </body>
 </html>
