@@ -522,11 +522,11 @@ p + p {
   }
 }
 
-@media (max-width: 520px) {
-  html {
-    font-size: 16px;
-  }
+.site-nav a {
+  white-space: nowrap;
+}
 
+@media (max-width: 720px) {
   .header-row {
     flex-wrap: wrap;
     padding-top: 14px;
@@ -543,6 +543,13 @@ p + p {
     flex-basis: 100%;
     font-size: 0.9rem;
     gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 520px) {
+  html {
+    font-size: 16px;
   }
 
   .ticket {
